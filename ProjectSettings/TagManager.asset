@@ -38,6 +38,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BackGound
+    uniqueID: 888970777
+    locked: 0
+  - name: Effect
+    uniqueID: 1127419827
+    locked: 0
+  - name: Object
+    uniqueID: 1670934789
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
