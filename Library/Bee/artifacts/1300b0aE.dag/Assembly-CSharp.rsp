@@ -356,6 +356,7 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/MainMenu.cs"
+"Assets/Scripts/Setting.cs"
 "Assets/UI pack/Scripts/FillValueNumber.cs"
 -langversion:9.0
 
