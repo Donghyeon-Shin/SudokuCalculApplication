@@ -1,11 +1,8 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Setting : MonoBehaviour
 {
-    private Button MouseControlButton;
     private Animator animator;
 
     private void Awake()

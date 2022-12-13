@@ -62,7 +62,7 @@
 35-->C:\work\workplace-unity\SudokuCalculApplication\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:148-179
 36            android:resizeableActivity="false"
 36-->C:\work\workplace-unity\SudokuCalculApplication\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:362-396
-37            android:screenOrientation="fullUser"
+37            android:screenOrientation="portrait"
 37-->C:\work\workplace-unity\SudokuCalculApplication\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-147
 38            android:theme="@style/UnityThemeSelector" >
 38-->C:\work\workplace-unity\SudokuCalculApplication\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
