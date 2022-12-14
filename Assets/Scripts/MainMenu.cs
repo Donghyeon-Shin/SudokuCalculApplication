@@ -4,43 +4,19 @@ using UnityEngine;
 
 public class MainMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
-    public void OnClickStart()
-    {
-        Debug.Log("Start");
-    }
-
-    public void OnClickInfo()
-    {
-        Debug.Log("Info");
-    }
-
+    // Go to messages Button (Function undecided)
     public void OnClickMessages()
     {
         Debug.Log("Messages");
     }
 
+    // Go to git Button
     public void OnClickGit()
     {
         Debug.Log("Git");
     }
 
-    public void OnClickSetting()
-    {
-        Debug.Log("Setting");
-    }
-
+    // Exit Button
     public void OnClickExit()
     {
 #if UNITY_EDITOR

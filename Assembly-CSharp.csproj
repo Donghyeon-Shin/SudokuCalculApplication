@@ -39,7 +39,7 @@
      <Compile Include="Assets\Scripts\MainMenu.cs" />
      <Compile Include="Assets\Scripts\Sudoku.cs" />
      <Compile Include="Assets\Scripts\SoundManger.cs" />
-     <Compile Include="Assets\Scripts\Setting.cs" />
+     <Compile Include="Assets\Scripts\ClickAnimation.cs" />
      <Compile Include="Assets\UI pack\Scripts\FillValueNumber.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
