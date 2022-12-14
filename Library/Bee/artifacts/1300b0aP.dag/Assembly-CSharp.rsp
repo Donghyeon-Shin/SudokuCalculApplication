@@ -311,6 +311,7 @@
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/Setting.cs"
 "Assets/Scripts/SoundManger.cs"
+"Assets/Scripts/Sudoku.cs"
 "Assets/UI pack/Scripts/FillValueNumber.cs"
 -langversion:9.0
 
