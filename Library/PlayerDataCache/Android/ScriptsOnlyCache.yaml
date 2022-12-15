@@ -15,8 +15,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -640,6 +642,12 @@ ScriptsOnlyBuild:
     methodName: OnSfx
   - assembly: Assembly-CSharp
     fullTypeName: Sudoku
+    methodName: ClickEmptyButton
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
     methodName: SetCurrBtn
   - assembly: Assembly-CSharp
     fullTypeName: SoundManger
@@ -1050,7 +1058,7 @@ ScriptsOnlyBuild:
     className: UnityOnControllerColliderHitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: e3c5c2fdac89cb3a648b4b66e4f39535
+      Hash: ff39c70b2122278d37a78ab116ef5df5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Sudoku

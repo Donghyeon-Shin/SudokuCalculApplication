@@ -5,11 +5,42 @@ using UnityEngine.UI;
 
 public class Sudoku : MonoBehaviour
 {
-    public GameObject InputButton, NumberButton;
+    public GameObject InputButton, NumberButton, EmptyButton;
     public Image image;
     private Animator animator;
 
     int[,] arr = new int[9, 9]; // Sudoku array
+
+    private void Update()
+    {
+        if (InputButton != null)
+        {
+            string value = InputButton.GetComponentInChildren<Text>().text;
+            if (value != "")
+            {
+                EmptyButton.SetActive(true);
+            }
+            else
+            {
+                EmptyButton.SetActive(false);
+            }
+        }
+        else EmptyButton.SetActive(false);
+    }
+
+    public void ClickEmptyButton()
+    {
+        if (InputButton != null)
+        {
+            InputButton.GetComponentInChildren<Text>().text = "";
+            // Find row, column in Curr Table Number Button.
+            string name = InputButton.name;
+            int r = name[2] - '0';
+            int c = name[3] - '0';
+            // Set array[column][row] 
+            arr[c, r] = 0;
+        }
+    }
 
     // Sudoku Table Number Button UI 
     public void SetCurrBtn()
@@ -18,7 +49,7 @@ public class Sudoku : MonoBehaviour
         if (InputButton != null)
         {
             image = InputButton.GetComponent<Image>();
-            image.color = Color.white;
+            image.color = Color.black;
         }
         // Setting Curr Button
         InputButton = EventSystem.current.currentSelectedGameObject;
@@ -28,7 +59,6 @@ public class Sudoku : MonoBehaviour
         image.color = Color.yellow;
     }
 
-    // 
     public void ClickNumberBtn()
     {
         // Check if the Curr Table Number Button is enabled
