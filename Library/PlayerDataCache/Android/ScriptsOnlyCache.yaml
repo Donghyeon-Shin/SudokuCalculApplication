@@ -80,6 +80,9 @@ ScriptsOnlyBuild:
     fullTypeName: ClickAnimation
     methodName: Close
   - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: ClickResetButton
+  - assembly: Assembly-CSharp
     fullTypeName: SoundManger
     methodName: OnSfx
   - assembly: Assembly-CSharp
@@ -111,7 +114,7 @@ ScriptsOnlyBuild:
     methodName: OnSfx
   - assembly: Assembly-CSharp
     fullTypeName: Sudoku
-    methodName: StartCalculation
+    methodName: ClickStartCalculationButton
   - assembly: Assembly-CSharp
     fullTypeName: SoundManger
     methodName: SetBtnVolume
@@ -600,6 +603,12 @@ ScriptsOnlyBuild:
     methodName: OnSfx
   - assembly: Assembly-CSharp
     fullTypeName: Sudoku
+    methodName: ClickResetButton
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
     methodName: SetCurrBtn
   - assembly: Assembly-CSharp
     fullTypeName: SoundManger
@@ -1058,7 +1067,7 @@ ScriptsOnlyBuild:
     className: UnityOnControllerColliderHitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: ff39c70b2122278d37a78ab116ef5df5
+      Hash: d1d917ae4d39cce66fa3e57fafe23efa
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Sudoku
