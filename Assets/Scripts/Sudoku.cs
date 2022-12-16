@@ -10,8 +10,8 @@ public class Sudoku : MonoBehaviour
     public Image image;
     private Animator animator;
 
-    int[,] arr = new int[9, 9]; // Sudoku array
-    bool ResetCheck = false;
+    public int[,] arr = new int[9, 9]; // Sudoku array
+    public bool ResetCheck = false;
 
     private void Update()
     {
@@ -106,19 +106,6 @@ public class Sudoku : MonoBehaviour
     public void ClickStartCalculationButton()
     {
         bool check = calcultaion();
-        if (check)
-        {
-            // Test Print out Sudoku array
-            for (int i = 0; i < 9; i++)
-            {
-                for (int j = 0; j < 9; j++)
-                {
-                    Debug.Log(arr[i, j]);
-                }
-            }
-        }
-        // Reset number Table
-        ResetTableAndArray();
     }
 
     // temporary button
@@ -135,7 +122,7 @@ public class Sudoku : MonoBehaviour
                 {
                     // Initialize to zero
                     string prefix = "RC";
-                    string name = prefix + i + j;
+                    string name = prefix + j + i;
                     Button = GameObject.Find(name);
                     Button.GetComponentInChildren<Text>().text = "";
                     arr[i, j] = 0;
