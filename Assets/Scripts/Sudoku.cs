@@ -6,8 +6,9 @@ using UnityEngine.UI;
 
 public class Sudoku : MonoBehaviour
 {
-    public GameObject InputButton, NumberButton, EmptyButton, ResetButton;
-    public Image image;
+    public GameObject OutputScreen, ErrorScreen, EmptyButton, ResetButton;
+    private GameObject InputButton, NumberButton;
+    private Image image;
     private Animator animator;
 
     public int[,] arr = new int[9, 9]; // Sudoku array
@@ -39,6 +40,7 @@ public class Sudoku : MonoBehaviour
             string name = InputButton.name;
             int r = name[2] - '0';
             int c = name[3] - '0';
+
             // Set array[column][row] 
             arr[c, r] = 0;
 
@@ -105,10 +107,75 @@ public class Sudoku : MonoBehaviour
     // Start Calculation Button
     public void ClickStartCalculationButton()
     {
-        bool check = calcultaion();
+        // Check array before calculation
+        bool check = arrCheck();
+        if (!check)
+        {
+            // Show ErrorScreen
+            ErrorScreen.SetActive(true);
+            return;
+        }
+
+        // Start Sudoku calculation
+        calcultaion();
+        // Check array after calculation
+        check = arrCheck();
+
+        if (!check)
+        {
+            // Show ErrorScreen
+            ErrorScreen.SetActive(true);
+            return;
+        }
+
+        // Show Output Screen
+        OutputScreen.SetActive(true);
+        OutputScreen.GetComponent<SudokuOutput>().LoadAndShowData();
     }
 
-    // temporary button
+    // Check the correct number in array
+    private bool arrCheck()
+    {
+        // Row and Column Check
+        for (int i = 0; i < 9; i++)
+        {
+            bool[] rowVisited = new bool[10];
+            bool[] columnVisited = new bool[10];
+
+            for (int j = 0; j < 9; j++)
+            {
+                if (arr[i, j] != 0 && rowVisited[arr[i, j]]) return false;
+                if (arr[j, i] != 0 && columnVisited[arr[j, i]]) return false;
+
+                rowVisited[arr[i, j]] = true;
+                columnVisited[arr[j, i]] = true;
+            }
+        }
+
+        // 3*3 Check
+        for (int i = 0; i < 3; i++)
+        {
+            int x = i * 3;
+            for (int j = 0; j < 3; j++)
+            {
+                int y = j * 3;
+                bool[] x33Visited = new bool[10];
+
+                for (int nx = x; nx < x + 3; nx++)
+                {
+                    for (int ny = y; ny < y + 3; ny++)
+                    {
+                        if (arr[nx, ny] != 0 && x33Visited[arr[nx, ny]]) return false;
+
+                        x33Visited[arr[nx, ny]] = true;
+                    }
+                }
+            }
+        }
+        return true;
+    }
+
+    // Temporary button
     private GameObject Button;
 
     private void ResetTableAndArray()
@@ -154,7 +221,8 @@ public class Sudoku : MonoBehaviour
         }
     }
 
-    private bool calcultaion()
+    // Sudoku calculation
+    private void calcultaion()
     {
         // Initialize
         blank.Clear();
@@ -176,7 +244,6 @@ public class Sudoku : MonoBehaviour
 
         // Backtracking
         if (cnt > 0) bt(0);
-        return true;
     }
 
     // Backtracking function
@@ -201,7 +268,7 @@ public class Sudoku : MonoBehaviour
         return;
     }
 
-    // Check row, column, 3*3 
+    // Check Row, Column, 3*3 
     private bool check(int x, int y)
     {
         for (int i = 0; i < 9; i++)
