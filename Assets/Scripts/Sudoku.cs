@@ -12,6 +12,7 @@ public class Sudoku : MonoBehaviour
     private Animator animator;
 
     public int[,] arr = new int[9, 9]; // Sudoku array
+    public bool[,] UserInputArr = new bool[9, 9]; // User Input Sudoku array (User input : gray)
     public bool ResetCheck = false;
 
     private void Update()
@@ -41,8 +42,8 @@ public class Sudoku : MonoBehaviour
             int r = name[2] - '0';
             int c = name[3] - '0';
 
-            // Set array[column][row] 
-            arr[c, r] = 0;
+            arr[c, r] = 0; // Set array[column][row] 
+            UserInputArr[c, r] = false; // User Input Sudoku array
 
             // Verify Number Table Has number
             for (int i = 0; i < 9; i++)
@@ -92,8 +93,9 @@ public class Sudoku : MonoBehaviour
             string name = InputButton.name;
             int r = name[2] - '0';
             int c = name[3] - '0';
-            // Set array[column][row] 
-            arr[c, r] = n[0] - '0';
+
+            arr[c, r] = n[0] - '0'; // Set array[column][row] 
+            UserInputArr[c, r] = true; // Set User Input array[column][row] 
             ResetCheck = true;
         }
     }
@@ -193,6 +195,8 @@ public class Sudoku : MonoBehaviour
                     Button = GameObject.Find(name);
                     Button.GetComponentInChildren<Text>().text = "";
                     arr[i, j] = 0;
+
+                    UserInputArr[i, j] = false;
                 }
             }
             // Unassign Curr Button
