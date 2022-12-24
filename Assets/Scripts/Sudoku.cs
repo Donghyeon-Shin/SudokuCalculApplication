@@ -111,6 +111,7 @@ public class Sudoku : MonoBehaviour
     {
         // Check array before calculation
         bool check = arrCheck();
+
         if (!check)
         {
             // Show ErrorScreen
@@ -138,6 +139,7 @@ public class Sudoku : MonoBehaviour
     // Check the correct number in array
     private bool arrCheck()
     {
+        bool userInputCheck = false;
         // Row and Column Check
         for (int i = 0; i < 9; i++)
         {
@@ -146,6 +148,7 @@ public class Sudoku : MonoBehaviour
 
             for (int j = 0; j < 9; j++)
             {
+                if (UserInputArr[i, j]) userInputCheck = true;
                 if (arr[i, j] != 0 && rowVisited[arr[i, j]]) return false;
                 if (arr[j, i] != 0 && columnVisited[arr[j, i]]) return false;
 
@@ -174,7 +177,7 @@ public class Sudoku : MonoBehaviour
                 }
             }
         }
-        return true;
+        return true & userInputCheck;
     }
 
     // Temporary button
