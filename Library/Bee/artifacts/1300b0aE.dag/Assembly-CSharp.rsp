@@ -361,6 +361,7 @@
 "Assets/Scripts/Sudoku.cs"
 "Assets/Scripts/SudokuOutput.cs"
 "Assets/UI pack/Scripts/FillValueNumber.cs"
+"Assets/_Heathen Engineering/Samples/UX Examples/Flat Icons [Free]/ToggleSetAnimatorBoolean.cs"
 -langversion:9.0
 
 /deterministic

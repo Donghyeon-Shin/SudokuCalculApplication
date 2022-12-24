@@ -104,9 +104,6 @@ ScriptsOnlyBuild:
     methodName: OnSfx
   - assembly: Assembly-CSharp
     fullTypeName: SoundManger
-    methodName: SetMusicVolume
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
     methodName: OnSfx
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
@@ -135,369 +132,378 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Sudoku
     methodName: ClickStartCalculationButton
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: ClickNumberBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: ClickNumberBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: ClickNumberBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: ClickNumberBtn
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: SetMusicVolume
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: ClickNumberBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: ClickNumberBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: ClickEffectIcon
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: ClickMusicIcon
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: ClickNumberBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundManger
+    methodName: OnSfx
+  - assembly: Assembly-CSharp
+    fullTypeName: Sudoku
+    methodName: SetCurrBtn
   - assembly: Assembly-CSharp
     fullTypeName: SoundManger
     methodName: SetBtnVolume
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: ClickNumberBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: ClickNumberBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: ClickNumberBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: ClickNumberBtn
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: ClickNumberBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: ClickNumberBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: ClickNumberBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SoundManger
-    methodName: OnSfx
-  - assembly: Assembly-CSharp
-    fullTypeName: Sudoku
-    methodName: SetCurrBtn
   - assembly: Assembly-CSharp
     fullTypeName: SoundManger
     methodName: OnSfx
@@ -725,8 +731,6 @@ ScriptsOnlyBuild:
     - Class: 82
       Script: {instanceID: 0}
     - Class: 83
-      Script: {instanceID: 0}
-    - Class: 89
       Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
@@ -1221,7 +1225,7 @@ ScriptsOnlyBuild:
     className: UnityOnPointerClickMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 2bd2eb1f794fdb4547ae8111bc53410f
+      Hash: 14be06d751906f07f9fb9bb96fca25e2
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SoundManger
@@ -1603,6 +1607,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8d04e7d569f555be510cc1fa443c0495
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HeathenEngineering.UX.Samples
+    className: ToggleSetAnimatorBoolean
   platform: 13
   scenePathNames:
   - Assets/Scenes/Main.unity
